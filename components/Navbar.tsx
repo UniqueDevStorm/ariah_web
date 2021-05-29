@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Logo from "@assets/Logo.png";
 
 export default function Navbar() {
     return (
@@ -7,8 +6,8 @@ export default function Navbar() {
             <div className='float-left'>
                 <Link href='./'>
                     <a href='./'>
-                        <div className='sm:pl-20 sm:pt-5 pl-8 pt-3'>
-                            <img src={Logo} alt='Logo' width={100} />
+                        <div className='sm:pl-80 sm:pt-5 pl-12 pt-3'>
+                            <h1 className='text-gray-700 text-2xl font-semibold'>Ariah</h1>
                         </div>
                     </a>
                 </Link>
@@ -17,7 +16,7 @@ export default function Navbar() {
                 <div>
                     <Link href='https://discord.gg/CfXfrqSX'>
                         <a href='https://discord.gg/CfXfrqSX'>
-                            <h1 className='text-xl font-thin pr-10 pt-5 text-gray-400'>디스코드</h1>
+                            <h1 className='sm:text-xl text-lg font-thin sm:pr-80 sm:pt-5 pr-12 pt-5 text-gray-400'>디스코드</h1>
                         </a>
                     </Link>
                 </div>
