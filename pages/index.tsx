@@ -1,4 +1,3 @@
-import Navbar from "@components/Navbar";
 import { NextSeo } from "next-seo";
 
 export default function Home() {
@@ -8,7 +7,11 @@ export default function Home() {
                 title='Team Ariah'
                 description='팀 Ariah 메인 페이지입니다.'
             />
-            <Navbar />
+            <div className='sm:pl-52 sm:pt-52'>
+                <h1 className='sm:text-6xl text-gray-400'>Team Ariah.</h1>
+                <h1 className='sm:text-2xl text-blue-800'>유저가 만드는 공간</h1>
+                <h1 className='sm:text-2xl text-green-400'>Team Ariah</h1>
+            </div>
         </div>
     )
 }
